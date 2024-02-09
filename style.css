@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #383D3B;
+    color: #52DEE5;
+    text-align: center;
+    transition: all .2s ease;
+    font-family: 'Signika Negative', sans-serif;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #FAEF5D;
+    font-size: xx-large; 
+}
+.container{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 7vmin;
+    color: #FCCA46;
+}
+#reset, #newbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #FCCA46;
+    border-radius: 1rem;
+    
+}
+.msgcontainer p{
+    color: aliceblue;
+    font-size: 6vmin;
+    margin-bottom: 10px;
+}
+.msgcontainer{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
