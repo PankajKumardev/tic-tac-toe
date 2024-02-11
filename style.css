@@ -14,6 +14,9 @@ h1{
     color: #FAEF5D;
     font-size: xx-large; 
 }
+h1 span{
+    color: red;
+}
 .container{
     height: 70vh;
     justify-content: center;
